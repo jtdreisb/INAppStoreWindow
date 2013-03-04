@@ -50,7 +50,7 @@
  (e.g. buttons, a toolbar, etc.). This view can also be set if you want to use a different 
  styled title bar aside from the default one (textured, etc.). 
  */
-@property (INAppStoreWindowRetain) NSView *titleBarView;
+@property (INAppStoreWindowRetain) IBOutlet NSView *titleBarView;
 
 /** 
  Set whether the fullscreen or traffic light buttons are horizontally centered 
